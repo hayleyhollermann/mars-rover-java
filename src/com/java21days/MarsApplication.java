@@ -2,6 +2,7 @@ package com.java21days;
 
 class MarsApplication {
     public static void main(String[] arguments) {
+        // creates a new robot object w/ name "spirit"
         MarsRobot spirit = new MarsRobot();
         spirit.status = "exploring";
         spirit.speed = 2;
